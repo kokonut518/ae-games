@@ -3,47 +3,23 @@
 <html lang="en">
 
 <head>
-
-<meta charset="UTF-8">
-
-<title>Game Hub</title>
-
-<style>
-
-body {
-
-font-family: Arial;
-
-text-align: center;
-
-padding-top: 50px;
-
-}
-
-.game-button {
-
-padding: 15px 30px;
-
-margin: 20px;
-
-font-size: 18px;
-
-cursor: pointer;
-
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <title>Game Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-<h1>🎮 Welcome to Game Hub</h1>
-
-<button class="game-button" onclick="location.href='tic-tac-toe/index.html'">Play Tic-Tac-Toe</button>
-
-<button class="game-button" onclick="location.href='memory-game/index.html'">Play nothing Game</button>
-
+    <h1 class="website--title">Welcome to Game Hub</h1>
+    <div class="button-container">
+        <button class="game-button" onclick="location.href='tic-tac-toe/index.html'">
+            <img src="./assets/tic-tac-toe.png" alt="tic tac toe" class="game-icon">
+            Play Tic-Tac-Toe
+        </button>
+        <button class="game-button" onclick="location.href='memory-game/index.html'">Play nothing Game</button>
+    </div>
 </body>
 
 </html>
