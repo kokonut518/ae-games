@@ -19,7 +19,7 @@ section {
 }
 
 .game--container {
-    display: grid;
+    display: grid; /* Use grid layout for the game board */
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     width: 90vw;        /* Responsive width */
